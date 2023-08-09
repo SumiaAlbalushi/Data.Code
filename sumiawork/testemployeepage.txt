@@ -1,0 +1,21 @@
+test employee page
+
+
+
+
+
+from Employee import Employee
+
+def main():
+    Adams = Employee("Adams","E7876",5000,"Accounting")
+    Jones = Employee("Jones","E7499",45000,"Research")
+    martin = Employee("Martin","E7900",50000,"Sales")
+    Smith = Employee("Smith","E7698",55000,"Operations")
+
+
+    print(Adams.descrip())
+    print(Jones.descrip())
+    print(martin.descrip())
+    print(Smith.descrip())
+    
+    
